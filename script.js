@@ -9,7 +9,7 @@ form.addEventListener("submit", async (e) => {
     const message = document.getElementById("message").value;
 
     try {
-        const response = await fetch("https://main-project-u0vl.onrender.com/submit", {
+        const response = await fetch("https://project-portfolio-v1ol.onrender.com/submit", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
